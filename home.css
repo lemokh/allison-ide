@@ -1,3 +1,12 @@
+/* prevents unexpected behavior across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*  element's total width and height
+        includes border & padding */
+}
+
 /* 
 NEUTRAL BLUES
 --alice-blue: #edf2fbff;
@@ -7,23 +16,27 @@ NEUTRAL BLUES
 --lavender-blue: #c1d3feff;
 --lavender-blue-2: #b6ccfeff;
 --baby-blue-eyes: #abc4ffff;
+
 HONOLULU
 --beau-blue: #b9d6f2ff;
 --oxford-blue: #061a40ff;
 --usafa-blue: #0353a4ff;
 --honolulu-blue: #006daaff;
 --prussian-blue: #003559ff;
+
 HAWAII COLORS
 --prussian-blue: #003049ff;
 --maximum-red: #d62828ff;
 --orange: #f77f00ff;
 --maximum-yellow-red: #fcbf49ff;
 --lemon-meringue: #eae2b7ff;
+
 TROPICAL CALMING NEUTRALS
 --terra-cotta: #e07a5fff;
 --independence: #3d405bff;
 --green-sheen: #81b29aff;
 --deep-champagne: #f2cc8fff;
+
 FLAMINGO
 --mauve: #e4a5ffff;
 --mauve-2: #deabffff;
@@ -35,6 +48,7 @@ FLAMINGO
 --baby-blue-eyes: #b8d0ffff;
 --baby-blue-eyes-2: #b2d6ffff;
 --uranian-blue: #acdcffff;
+
 LIGHT STRUCTURAL
 --dark-slate-gray: #384d48ff;
 --nickel: #6e7271ff;
